@@ -1,0 +1,43 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+annotation_env/
+
+# IDE settings
+.vscode/
+.idea/
+
+# Dataset and annotation files
+datasets/
+dataset/
+runs/
+annotation_exports/
+
+# Build and deployment
+build/
+dist/
+*.spec
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Generated logs and reports
+logs/
+reports/
